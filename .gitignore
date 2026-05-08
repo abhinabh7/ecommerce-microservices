@@ -1,0 +1,17 @@
+# Node modules - never push these, too large
+node_modules/
+
+# Environment files - might contain secrets
+.env
+
+# Build output
+dist/
+build/
+
+# Logs
+npm-debug.log
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
